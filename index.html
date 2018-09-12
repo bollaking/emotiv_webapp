@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>WebGL - Balancing Stick</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<h1>Webapp Template</h1>
+		<p>Simple web page that starts, stops and sends markers to a Cortex EEG session</p>
+		<div style="clear:both;float:left;">			
+			<div style="float:left;">
+				<p>Emotiv_id</p>
+				<p><input id="emotiv_id" type="text" name="Emotiv_id" value=""></p>
+			</div>
+			<div style="float:left;">
+				<p>Password</p>
+				<p><input id="password" type="password" name="Password" value=""></p>
+			</div>
+			<div style="clear:both;"">
+				<h2>Session Controls</h2>
+				<p><input id="client_id" type="hidden" name="client_id" value="1rn7Mi191ktTsFkBU8x7DGq7yUytas5tKyWYZNUZ"></p>
+				<p><input id="secret" type="hidden" name="client_secret" value="AqMVfBleBssIjr2caSLLK4OyAvY1qRD5iNF8lh6jT5n2nXtbAO0vABGG0rbLk7qy1hPxUt1kWJUOEJNIgjJrfmJxN8kunm5hABAv9GtuiP4jQca5ZXspA9x9z0Kwxy64"></p>
+				<p><input id="start" type="button" value="Start Session"><input id="stop" type="button" value="End Session"></p>
+				<h2>Markers</h2>
+				<input id="mark" type="button" value="Set Start Marker"><input id="mark_stop" type="button" value="Set Stop Marker">
+				Marker Value: <input id="marker_value" type="text" value="112">
+			</div>
+		</div>
+		<div style="width:850px;float:left">
+			<canvas id="game-surface" width="600" height="400">
+				Your browser does not support HTML5
+			</canvas>
+		</div>
+		<div id="messages" style="clear:both;">
+
+		</div>
+<!--		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script src="webapp.js"></script>
+	</body>
+</html>
