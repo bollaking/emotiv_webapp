@@ -1,0 +1,13 @@
+{
+  "name": "webapp_template",
+  "version": "1.0.0",
+  "description": "Emotiv Webapp Template",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill King",
+  "license": "ISC"
+}
