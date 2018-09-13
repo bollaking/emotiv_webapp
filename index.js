@@ -204,8 +204,8 @@ var _auth ="";
 var session = "";
 
 var auth = {
-    client_id: "1rn7Mi191ktTsFkBU8x7DGq7yUytas5tKyWYZNUZ",
-    client_secret: "AqMVfBleBssIjr2caSLLK4OyAvY1qRD5iNF8lh6jT5n2nXtbAO0vABGG0rbLk7qy1hPxUt1kWJUOEJNIgjJrfmJxN8kunm5hABAv9GtuiP4jQca5ZXspA9x9z0Kwxy64",
+    client_id: "...",
+    client_secret: "...",
     debit: 1 // first time you run example debit should > 0
 }
 
